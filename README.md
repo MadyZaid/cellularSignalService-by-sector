@@ -1,0 +1,1 @@
+cellularSignal-by-sector

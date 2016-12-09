@@ -1,0 +1,13 @@
+<p>{{ sector }}</p>
+
+<hr />
+<h4>Antennas:</h4><a href="#/cellular/2">2</a>|<a href="#/cellular/5">5</a>|<a href="#/cellular/7">7</a>
+<hr />
+
+<div ng-repeat="w in cellularResult.list">
+    <div class="row">
+        <div class="col-md-12">
+            <cellular-panel></cellular-panel>
+        </div>
+    </div>
+</div>
